@@ -1,5 +1,6 @@
-# ScottAlertView
+# ScottAlertController
 can display on controller and window,support custom view, custom animation, use AutoLayout,support iPhone,iPad.
+if ScottAlertController can help you, i hope you give a star
 
 # ScreenShot
 ![ScreenShot](https://github.com/LZAscott/ScottAlertController/blob/master/1.gif)
