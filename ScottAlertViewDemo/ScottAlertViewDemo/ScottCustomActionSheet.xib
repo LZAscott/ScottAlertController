@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ScottCustomActionSheet">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="152"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WbR-58-ifx" userLabel="line1">
+                    <rect key="frame" x="0.0" y="50" width="300" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="hdz-jc-3Pv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="51i-4V-keY" userLabel="line2">
+                    <rect key="frame" x="0.0" y="101" width="300" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Hk7-wr-bfG"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网络" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzW-Y2-AsL">
+                    <rect key="frame" x="10" y="13" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="语言" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbc-Pz-0bL">
+                    <rect key="frame" x="10" y="66" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcp-ed-PcL">
+                    <rect key="frame" x="10" y="117" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="egV-FV-Je0">
+                    <rect key="frame" x="174" y="62" width="121" height="29"/>
+                    <segments>
+                        <segment title="First"/>
+                        <segment title="Second"/>
+                    </segments>
+                </segmentedControl>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="PfC-Az-IFC">
+                    <rect key="frame" x="179" y="112" width="118" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="114" id="a5j-Ey-qZs"/>
+                        <constraint firstAttribute="height" constant="30" id="sW6-sM-QE7"/>
+                    </constraints>
+                </slider>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tof-g9-2Ve">
+                    <rect key="frame" x="246" y="9" width="51" height="31"/>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="51i-4V-keY" secondAttribute="bottom" constant="50" id="04C-4T-9KC"/>
+                <constraint firstAttribute="trailing" secondItem="tof-g9-2Ve" secondAttribute="trailing" constant="5" id="2Y0-Is-HNy"/>
+                <constraint firstItem="zzW-Y2-AsL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="9xS-vd-93Q"/>
+                <constraint firstAttribute="trailing" secondItem="WbR-58-ifx" secondAttribute="trailing" id="HDj-PU-Cbg"/>
+                <constraint firstItem="PfC-Az-IFC" firstAttribute="top" secondItem="51i-4V-keY" secondAttribute="bottom" constant="10" id="Hdw-ff-4oi"/>
+                <constraint firstItem="WbR-58-ifx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KQb-li-Ksg"/>
+                <constraint firstItem="zzW-Y2-AsL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="13" id="Mlo-vf-Lao"/>
+                <constraint firstAttribute="bottom" secondItem="hcp-ed-PcL" secondAttribute="bottom" constant="14" id="Pk4-ed-Ey7"/>
+                <constraint firstAttribute="trailing" secondItem="51i-4V-keY" secondAttribute="trailing" id="TRz-qg-Uod"/>
+                <constraint firstAttribute="trailing" secondItem="egV-FV-Je0" secondAttribute="trailing" constant="5" id="TVi-TX-Hj8"/>
+                <constraint firstItem="tof-g9-2Ve" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="9" id="UQB-Bu-B3V"/>
+                <constraint firstAttribute="trailing" secondItem="PfC-Az-IFC" secondAttribute="trailing" constant="5" id="Xk8-ft-2xQ"/>
+                <constraint firstItem="egV-FV-Je0" firstAttribute="top" secondItem="WbR-58-ifx" secondAttribute="bottom" constant="11" id="Xqn-qe-Sh4"/>
+                <constraint firstItem="51i-4V-keY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eq5-oo-ABf"/>
+                <constraint firstItem="WbR-58-ifx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="eur-qf-1zn"/>
+                <constraint firstItem="Kbc-Pz-0bL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="vxb-Oo-uCj"/>
+                <constraint firstItem="hcp-ed-PcL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="y06-WT-Sdr"/>
+                <constraint firstItem="Kbc-Pz-0bL" firstAttribute="top" secondItem="WbR-58-ifx" secondAttribute="bottom" constant="15" id="yoa-o8-Fl9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-73" y="74"/>
+        </view>
+    </objects>
+</document>

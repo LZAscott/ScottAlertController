@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2224BEC41DF64FE100980E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEC31DF64FE100980E4C /* main.m */; };
+		2224BEC71DF64FE100980E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEC61DF64FE100980E4C /* AppDelegate.m */; };
+		2224BECA1DF64FE100980E4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEC91DF64FE100980E4C /* ViewController.m */; };
+		2224BECD1DF64FE100980E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2224BECB1DF64FE100980E4C /* Main.storyboard */; };
+		2224BECF1DF64FE100980E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2224BECE1DF64FE100980E4C /* Assets.xcassets */; };
+		2224BED21DF64FE100980E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2224BED01DF64FE100980E4C /* LaunchScreen.storyboard */; };
+		2224BEFA1DF6539C00980E4C /* UIImage+ScottExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEF91DF6539C00980E4C /* UIImage+ScottExtension.m */; };
+		2224BEFD1DF655EC00980E4C /* ScottCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEFC1DF655EC00980E4C /* ScottCustomAlertView.m */; };
+		2224BEFF1DF655F900980E4C /* ScottCustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2224BEFE1DF655F900980E4C /* ScottCustomAlertView.xib */; };
+		2224BF021DF6561200980E4C /* ScottCustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF011DF6561200980E4C /* ScottCustomActionSheet.m */; };
+		2224BF041DF6561C00980E4C /* ScottCustomActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2224BF031DF6561C00980E4C /* ScottCustomActionSheet.xib */; };
+		2224BF1D1DF66C1F00980E4C /* ScottBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF0A1DF66C1F00980E4C /* ScottBaseAnimation.m */; };
+		2224BF1E1DF66C1F00980E4C /* ScottDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF0C1DF66C1F00980E4C /* ScottDropDownAnimation.m */; };
+		2224BF1F1DF66C1F00980E4C /* ScottFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF0E1DF66C1F00980E4C /* ScottFadeAnimation.m */; };
+		2224BF201DF66C1F00980E4C /* ScottScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF101DF66C1F00980E4C /* ScottScaleFadeAnimation.m */; };
+		2224BF211DF66C1F00980E4C /* ScottAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF141DF66C1F00980E4C /* ScottAlertView.m */; };
+		2224BF221DF66C1F00980E4C /* ScottShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF161DF66C1F00980E4C /* ScottShowAlertView.m */; };
+		2224BF231DF66C1F00980E4C /* UIView+ScottAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF181DF66C1F00980E4C /* UIView+ScottAlertView.m */; };
+		2224BF241DF66C1F00980E4C /* UIView+ScottAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF1A1DF66C1F00980E4C /* UIView+ScottAutoLayout.m */; };
+		2224BF251DF66C1F00980E4C /* ScottAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF1C1DF66C1F00980E4C /* ScottAlertViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2224BEBF1DF64FE100980E4C /* ScottAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScottAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2224BEC31DF64FE100980E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2224BEC51DF64FE100980E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2224BEC61DF64FE100980E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2224BEC81DF64FE100980E4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2224BEC91DF64FE100980E4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2224BECC1DF64FE100980E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2224BECE1DF64FE100980E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2224BED11DF64FE100980E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2224BED31DF64FE100980E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2224BEF81DF6539C00980E4C /* UIImage+ScottExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScottExtension.h"; sourceTree = "<group>"; };
+		2224BEF91DF6539C00980E4C /* UIImage+ScottExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScottExtension.m"; sourceTree = "<group>"; };
+		2224BEFB1DF655EC00980E4C /* ScottCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottCustomAlertView.h; sourceTree = "<group>"; };
+		2224BEFC1DF655EC00980E4C /* ScottCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottCustomAlertView.m; sourceTree = "<group>"; };
+		2224BEFE1DF655F900980E4C /* ScottCustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScottCustomAlertView.xib; sourceTree = "<group>"; };
+		2224BF001DF6561200980E4C /* ScottCustomActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottCustomActionSheet.h; sourceTree = "<group>"; };
+		2224BF011DF6561200980E4C /* ScottCustomActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottCustomActionSheet.m; sourceTree = "<group>"; };
+		2224BF031DF6561C00980E4C /* ScottCustomActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScottCustomActionSheet.xib; sourceTree = "<group>"; };
+		2224BF091DF66C1F00980E4C /* ScottBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottBaseAnimation.h; sourceTree = "<group>"; };
+		2224BF0A1DF66C1F00980E4C /* ScottBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottBaseAnimation.m; sourceTree = "<group>"; };
+		2224BF0B1DF66C1F00980E4C /* ScottDropDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottDropDownAnimation.h; sourceTree = "<group>"; };
+		2224BF0C1DF66C1F00980E4C /* ScottDropDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottDropDownAnimation.m; sourceTree = "<group>"; };
+		2224BF0D1DF66C1F00980E4C /* ScottFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottFadeAnimation.h; sourceTree = "<group>"; };
+		2224BF0E1DF66C1F00980E4C /* ScottFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottFadeAnimation.m; sourceTree = "<group>"; };
+		2224BF0F1DF66C1F00980E4C /* ScottScaleFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottScaleFadeAnimation.h; sourceTree = "<group>"; };
+		2224BF101DF66C1F00980E4C /* ScottScaleFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottScaleFadeAnimation.m; sourceTree = "<group>"; };
+		2224BF111DF66C1F00980E4C /* ScottAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottAlertController.h; sourceTree = "<group>"; };
+		2224BF131DF66C1F00980E4C /* ScottAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottAlertView.h; sourceTree = "<group>"; };
+		2224BF141DF66C1F00980E4C /* ScottAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottAlertView.m; sourceTree = "<group>"; };
+		2224BF151DF66C1F00980E4C /* ScottShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottShowAlertView.h; sourceTree = "<group>"; };
+		2224BF161DF66C1F00980E4C /* ScottShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottShowAlertView.m; sourceTree = "<group>"; };
+		2224BF171DF66C1F00980E4C /* UIView+ScottAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScottAlertView.h"; sourceTree = "<group>"; };
+		2224BF181DF66C1F00980E4C /* UIView+ScottAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScottAlertView.m"; sourceTree = "<group>"; };
+		2224BF191DF66C1F00980E4C /* UIView+ScottAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScottAutoLayout.h"; sourceTree = "<group>"; };
+		2224BF1A1DF66C1F00980E4C /* UIView+ScottAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScottAutoLayout.m"; sourceTree = "<group>"; };
+		2224BF1B1DF66C1F00980E4C /* ScottAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottAlertViewController.h; sourceTree = "<group>"; };
+		2224BF1C1DF66C1F00980E4C /* ScottAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottAlertViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2224BEBC1DF64FE100980E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2224BEB61DF64FE100980E4C = {
+			isa = PBXGroup;
+			children = (
+				2224BEC11DF64FE100980E4C /* ScottAlertViewDemo */,
+				2224BEC01DF64FE100980E4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2224BEC01DF64FE100980E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2224BEBF1DF64FE100980E4C /* ScottAlertViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2224BEC11DF64FE100980E4C /* ScottAlertViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2224BF071DF66C1F00980E4C /* ScottAlertController */,
+				2224BEF71DF6538D00980E4C /* Category */,
+				2224BEC51DF64FE100980E4C /* AppDelegate.h */,
+				2224BEC61DF64FE100980E4C /* AppDelegate.m */,
+				2224BEC81DF64FE100980E4C /* ViewController.h */,
+				2224BEC91DF64FE100980E4C /* ViewController.m */,
+				2224BEFB1DF655EC00980E4C /* ScottCustomAlertView.h */,
+				2224BEFC1DF655EC00980E4C /* ScottCustomAlertView.m */,
+				2224BEFE1DF655F900980E4C /* ScottCustomAlertView.xib */,
+				2224BF001DF6561200980E4C /* ScottCustomActionSheet.h */,
+				2224BF011DF6561200980E4C /* ScottCustomActionSheet.m */,
+				2224BF031DF6561C00980E4C /* ScottCustomActionSheet.xib */,
+				2224BECB1DF64FE100980E4C /* Main.storyboard */,
+				2224BECE1DF64FE100980E4C /* Assets.xcassets */,
+				2224BED01DF64FE100980E4C /* LaunchScreen.storyboard */,
+				2224BED31DF64FE100980E4C /* Info.plist */,
+				2224BEC21DF64FE100980E4C /* Supporting Files */,
+			);
+			path = ScottAlertViewDemo;
+			sourceTree = "<group>";
+		};
+		2224BEC21DF64FE100980E4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2224BEC31DF64FE100980E4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2224BEF71DF6538D00980E4C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2224BEF81DF6539C00980E4C /* UIImage+ScottExtension.h */,
+				2224BEF91DF6539C00980E4C /* UIImage+ScottExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2224BF071DF66C1F00980E4C /* ScottAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				2224BF081DF66C1F00980E4C /* ScottAlertAnimations */,
+				2224BF111DF66C1F00980E4C /* ScottAlertController.h */,
+				2224BF121DF66C1F00980E4C /* ScottAlertView */,
+				2224BF1B1DF66C1F00980E4C /* ScottAlertViewController.h */,
+				2224BF1C1DF66C1F00980E4C /* ScottAlertViewController.m */,
+			);
+			path = ScottAlertController;
+			sourceTree = "<group>";
+		};
+		2224BF081DF66C1F00980E4C /* ScottAlertAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				2224BF091DF66C1F00980E4C /* ScottBaseAnimation.h */,
+				2224BF0A1DF66C1F00980E4C /* ScottBaseAnimation.m */,
+				2224BF0B1DF66C1F00980E4C /* ScottDropDownAnimation.h */,
+				2224BF0C1DF66C1F00980E4C /* ScottDropDownAnimation.m */,
+				2224BF0D1DF66C1F00980E4C /* ScottFadeAnimation.h */,
+				2224BF0E1DF66C1F00980E4C /* ScottFadeAnimation.m */,
+				2224BF0F1DF66C1F00980E4C /* ScottScaleFadeAnimation.h */,
+				2224BF101DF66C1F00980E4C /* ScottScaleFadeAnimation.m */,
+			);
+			path = ScottAlertAnimations;
+			sourceTree = "<group>";
+		};
+		2224BF121DF66C1F00980E4C /* ScottAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2224BF131DF66C1F00980E4C /* ScottAlertView.h */,
+				2224BF141DF66C1F00980E4C /* ScottAlertView.m */,
+				2224BF151DF66C1F00980E4C /* ScottShowAlertView.h */,
+				2224BF161DF66C1F00980E4C /* ScottShowAlertView.m */,
+				2224BF171DF66C1F00980E4C /* UIView+ScottAlertView.h */,
+				2224BF181DF66C1F00980E4C /* UIView+ScottAlertView.m */,
+				2224BF191DF66C1F00980E4C /* UIView+ScottAutoLayout.h */,
+				2224BF1A1DF66C1F00980E4C /* UIView+ScottAutoLayout.m */,
+			);
+			path = ScottAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2224BEBE1DF64FE100980E4C /* ScottAlertViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2224BED61DF64FE100980E4C /* Build configuration list for PBXNativeTarget "ScottAlertViewDemo" */;
+			buildPhases = (
+				2224BEBB1DF64FE100980E4C /* Sources */,
+				2224BEBC1DF64FE100980E4C /* Frameworks */,
+				2224BEBD1DF64FE100980E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScottAlertViewDemo;
+			productName = ScottAlertViewDemo;
+			productReference = 2224BEBF1DF64FE100980E4C /* ScottAlertViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2224BEB71DF64FE100980E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Scott;
+				TargetAttributes = {
+					2224BEBE1DF64FE100980E4C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YJJPK3UMS6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2224BEBA1DF64FE100980E4C /* Build configuration list for PBXProject "ScottAlertViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2224BEB61DF64FE100980E4C;
+			productRefGroup = 2224BEC01DF64FE100980E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2224BEBE1DF64FE100980E4C /* ScottAlertViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2224BEBD1DF64FE100980E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2224BEFF1DF655F900980E4C /* ScottCustomAlertView.xib in Resources */,
+				2224BED21DF64FE100980E4C /* LaunchScreen.storyboard in Resources */,
+				2224BECF1DF64FE100980E4C /* Assets.xcassets in Resources */,
+				2224BECD1DF64FE100980E4C /* Main.storyboard in Resources */,
+				2224BF041DF6561C00980E4C /* ScottCustomActionSheet.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2224BEBB1DF64FE100980E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2224BF1D1DF66C1F00980E4C /* ScottBaseAnimation.m in Sources */,
+				2224BECA1DF64FE100980E4C /* ViewController.m in Sources */,
+				2224BF1F1DF66C1F00980E4C /* ScottFadeAnimation.m in Sources */,
+				2224BF211DF66C1F00980E4C /* ScottAlertView.m in Sources */,
+				2224BF201DF66C1F00980E4C /* ScottScaleFadeAnimation.m in Sources */,
+				2224BEC71DF64FE100980E4C /* AppDelegate.m in Sources */,
+				2224BEFA1DF6539C00980E4C /* UIImage+ScottExtension.m in Sources */,
+				2224BF251DF66C1F00980E4C /* ScottAlertViewController.m in Sources */,
+				2224BF241DF66C1F00980E4C /* UIView+ScottAutoLayout.m in Sources */,
+				2224BF021DF6561200980E4C /* ScottCustomActionSheet.m in Sources */,
+				2224BF221DF66C1F00980E4C /* ScottShowAlertView.m in Sources */,
+				2224BF1E1DF66C1F00980E4C /* ScottDropDownAnimation.m in Sources */,
+				2224BEFD1DF655EC00980E4C /* ScottCustomAlertView.m in Sources */,
+				2224BEC41DF64FE100980E4C /* main.m in Sources */,
+				2224BF231DF66C1F00980E4C /* UIView+ScottAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2224BECB1DF64FE100980E4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2224BECC1DF64FE100980E4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2224BED01DF64FE100980E4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2224BED11DF64FE100980E4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2224BED41DF64FE100980E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2224BED51DF64FE100980E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2224BED71DF64FE100980E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJJPK3UMS6;
+				INFOPLIST_FILE = ScottAlertViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scott.com.ScottAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2224BED81DF64FE100980E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJJPK3UMS6;
+				INFOPLIST_FILE = ScottAlertViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scott.com.ScottAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2224BEBA1DF64FE100980E4C /* Build configuration list for PBXProject "ScottAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2224BED41DF64FE100980E4C /* Debug */,
+				2224BED51DF64FE100980E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2224BED61DF64FE100980E4C /* Build configuration list for PBXNativeTarget "ScottAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2224BED71DF64FE100980E4C /* Debug */,
+				2224BED81DF64FE100980E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2224BEB71DF64FE100980E4C /* Project object */;
+}
