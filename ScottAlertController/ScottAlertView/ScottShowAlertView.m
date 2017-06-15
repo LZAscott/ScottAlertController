@@ -7,7 +7,7 @@
 //
 
 #import "ScottShowAlertView.h"
-#import "UIView+ScottAutoLayout.m"
+#import "UIView+ScottAutoLayout.h"
 
 @interface ScottShowAlertView ()
 

@@ -107,7 +107,7 @@
 }
 
 - (void)setBackgroundView:(UIView *)backgroundView {
-    if (backgroundView != nil) {
+    if (backgroundView == nil) {
         _backgroundView = backgroundView;
     }else if(backgroundView != _backgroundView){
         backgroundView.translatesAutoresizingMaskIntoConstraints = NO;
