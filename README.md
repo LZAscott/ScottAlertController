@@ -10,8 +10,16 @@ if ScottAlertController can help you, i hope you give a star
 * iOS 7.0 +
 * ARC
 
-# How to use
+# The way to import
+* Cocoapods
 
+```
+pod 'ScottAlertController'
+```
+
+* download and drag to your project
+
+# How to use
 * show in controller
 
     ```objc
@@ -85,8 +93,16 @@ ScottAlertController 既能显示在控制器上又能显示在window上，支�
 * iOS 7.0 +
 * ARC
 
-# 如何使用
+# 导入方式
+* 方式一： Cocoapods
 
+```
+pod 'ScottAlertController'
+```
+
+* 方式二：下载，然后拖入你的项目
+
+# 如何使用
 * 展示在Controller上
 
     ```objc
