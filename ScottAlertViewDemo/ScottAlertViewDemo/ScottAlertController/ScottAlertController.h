@@ -14,6 +14,8 @@
 #import "ScottShowAlertView.h"
 #import "UIView+ScottAlertView.h"
 #import "UIView+ScottAutoLayout.h"
+#import "UIImage+ScottAlertView.h"
+#import "ScottAlertViewController+BlurEffects.h"
 
 
 #endif /* ScottAlertController_h */

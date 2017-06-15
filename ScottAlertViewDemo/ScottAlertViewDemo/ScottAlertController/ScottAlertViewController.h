@@ -41,13 +41,13 @@ typedef NS_ENUM(NSInteger, ScottAlertControllerStyle) {
 // Default centerY
 @property (nonatomic, assign) CGFloat alertOriginY;
 
-
 @property (nonatomic, copy) void(^dismissCompleteBlock)();
 
 + (instancetype)alertControllerWithAlertView:(UIView *)alertView;
 + (instancetype)alertControllerWithAlertView:(UIView *)alertView preferredStyle:(ScottAlertControllerStyle)preferredStyle;
 + (instancetype)alertControllerWithAlertView:(UIView *)alertView preferredStyle:(ScottAlertControllerStyle)preferredStyle transitionAnimationStyle:(ScottAlertTransitionStyle)transitionStyle;
 + (instancetype)alertControllerWithAlertView:(UIView *)alertView preferredStyle:(ScottAlertControllerStyle)preferredStyle transitionAnimationClass:(Class)transitionAnimationClass;
+
 
 - (void)dismissViewControllerAnimated:(BOOL)animated;
 

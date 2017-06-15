@@ -7,29 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2218B6B81EF27EAF008B091F /* ScottAlertViewController+BlurEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218B6B11EF27EAF008B091F /* ScottAlertViewController+BlurEffects.m */; };
+		2218B6B91EF27EAF008B091F /* UIImage+ScottAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218B6B31EF27EAF008B091F /* UIImage+ScottAlertView.m */; };
+		2218B6BA1EF27EAF008B091F /* UIView+ScottAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218B6B51EF27EAF008B091F /* UIView+ScottAlertView.m */; };
+		2218B6BB1EF27EAF008B091F /* UIView+ScottAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218B6B71EF27EAF008B091F /* UIView+ScottAutoLayout.m */; };
+		2218B6C31EF27F7B008B091F /* ScottCustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218B6BE1EF27F7B008B091F /* ScottCustomActionSheet.m */; };
+		2218B6C41EF27F7B008B091F /* ScottCustomActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218B6BF1EF27F7B008B091F /* ScottCustomActionSheet.xib */; };
+		2218B6C51EF27F7B008B091F /* ScottCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218B6C11EF27F7B008B091F /* ScottCustomAlertView.m */; };
+		2218B6C61EF27F7B008B091F /* ScottCustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218B6C21EF27F7B008B091F /* ScottCustomAlertView.xib */; };
 		2224BEC41DF64FE100980E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEC31DF64FE100980E4C /* main.m */; };
 		2224BEC71DF64FE100980E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEC61DF64FE100980E4C /* AppDelegate.m */; };
 		2224BECA1DF64FE100980E4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEC91DF64FE100980E4C /* ViewController.m */; };
 		2224BECD1DF64FE100980E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2224BECB1DF64FE100980E4C /* Main.storyboard */; };
 		2224BECF1DF64FE100980E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2224BECE1DF64FE100980E4C /* Assets.xcassets */; };
 		2224BED21DF64FE100980E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2224BED01DF64FE100980E4C /* LaunchScreen.storyboard */; };
-		2224BEFA1DF6539C00980E4C /* UIImage+ScottExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEF91DF6539C00980E4C /* UIImage+ScottExtension.m */; };
-		2224BEFD1DF655EC00980E4C /* ScottCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BEFC1DF655EC00980E4C /* ScottCustomAlertView.m */; };
-		2224BEFF1DF655F900980E4C /* ScottCustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2224BEFE1DF655F900980E4C /* ScottCustomAlertView.xib */; };
-		2224BF021DF6561200980E4C /* ScottCustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF011DF6561200980E4C /* ScottCustomActionSheet.m */; };
-		2224BF041DF6561C00980E4C /* ScottCustomActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2224BF031DF6561C00980E4C /* ScottCustomActionSheet.xib */; };
 		2224BF1D1DF66C1F00980E4C /* ScottBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF0A1DF66C1F00980E4C /* ScottBaseAnimation.m */; };
 		2224BF1E1DF66C1F00980E4C /* ScottDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF0C1DF66C1F00980E4C /* ScottDropDownAnimation.m */; };
 		2224BF1F1DF66C1F00980E4C /* ScottFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF0E1DF66C1F00980E4C /* ScottFadeAnimation.m */; };
 		2224BF201DF66C1F00980E4C /* ScottScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF101DF66C1F00980E4C /* ScottScaleFadeAnimation.m */; };
 		2224BF211DF66C1F00980E4C /* ScottAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF141DF66C1F00980E4C /* ScottAlertView.m */; };
 		2224BF221DF66C1F00980E4C /* ScottShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF161DF66C1F00980E4C /* ScottShowAlertView.m */; };
-		2224BF231DF66C1F00980E4C /* UIView+ScottAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF181DF66C1F00980E4C /* UIView+ScottAlertView.m */; };
-		2224BF241DF66C1F00980E4C /* UIView+ScottAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF1A1DF66C1F00980E4C /* UIView+ScottAutoLayout.m */; };
 		2224BF251DF66C1F00980E4C /* ScottAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224BF1C1DF66C1F00980E4C /* ScottAlertViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2218B6B01EF27EAF008B091F /* ScottAlertViewController+BlurEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ScottAlertViewController+BlurEffects.h"; sourceTree = "<group>"; };
+		2218B6B11EF27EAF008B091F /* ScottAlertViewController+BlurEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ScottAlertViewController+BlurEffects.m"; sourceTree = "<group>"; };
+		2218B6B21EF27EAF008B091F /* UIImage+ScottAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScottAlertView.h"; sourceTree = "<group>"; };
+		2218B6B31EF27EAF008B091F /* UIImage+ScottAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScottAlertView.m"; sourceTree = "<group>"; };
+		2218B6B41EF27EAF008B091F /* UIView+ScottAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScottAlertView.h"; sourceTree = "<group>"; };
+		2218B6B51EF27EAF008B091F /* UIView+ScottAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScottAlertView.m"; sourceTree = "<group>"; };
+		2218B6B61EF27EAF008B091F /* UIView+ScottAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScottAutoLayout.h"; sourceTree = "<group>"; };
+		2218B6B71EF27EAF008B091F /* UIView+ScottAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScottAutoLayout.m"; sourceTree = "<group>"; };
+		2218B6BD1EF27F7B008B091F /* ScottCustomActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottCustomActionSheet.h; sourceTree = "<group>"; };
+		2218B6BE1EF27F7B008B091F /* ScottCustomActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottCustomActionSheet.m; sourceTree = "<group>"; };
+		2218B6BF1EF27F7B008B091F /* ScottCustomActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScottCustomActionSheet.xib; sourceTree = "<group>"; };
+		2218B6C01EF27F7B008B091F /* ScottCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottCustomAlertView.h; sourceTree = "<group>"; };
+		2218B6C11EF27F7B008B091F /* ScottCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottCustomAlertView.m; sourceTree = "<group>"; };
+		2218B6C21EF27F7B008B091F /* ScottCustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScottCustomAlertView.xib; sourceTree = "<group>"; };
 		2224BEBF1DF64FE100980E4C /* ScottAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScottAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2224BEC31DF64FE100980E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2224BEC51DF64FE100980E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,14 +55,6 @@
 		2224BECE1DF64FE100980E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2224BED11DF64FE100980E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2224BED31DF64FE100980E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2224BEF81DF6539C00980E4C /* UIImage+ScottExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScottExtension.h"; sourceTree = "<group>"; };
-		2224BEF91DF6539C00980E4C /* UIImage+ScottExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScottExtension.m"; sourceTree = "<group>"; };
-		2224BEFB1DF655EC00980E4C /* ScottCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottCustomAlertView.h; sourceTree = "<group>"; };
-		2224BEFC1DF655EC00980E4C /* ScottCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottCustomAlertView.m; sourceTree = "<group>"; };
-		2224BEFE1DF655F900980E4C /* ScottCustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScottCustomAlertView.xib; sourceTree = "<group>"; };
-		2224BF001DF6561200980E4C /* ScottCustomActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottCustomActionSheet.h; sourceTree = "<group>"; };
-		2224BF011DF6561200980E4C /* ScottCustomActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottCustomActionSheet.m; sourceTree = "<group>"; };
-		2224BF031DF6561C00980E4C /* ScottCustomActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScottCustomActionSheet.xib; sourceTree = "<group>"; };
 		2224BF091DF66C1F00980E4C /* ScottBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottBaseAnimation.h; sourceTree = "<group>"; };
 		2224BF0A1DF66C1F00980E4C /* ScottBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottBaseAnimation.m; sourceTree = "<group>"; };
 		2224BF0B1DF66C1F00980E4C /* ScottDropDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottDropDownAnimation.h; sourceTree = "<group>"; };
@@ -61,10 +68,6 @@
 		2224BF141DF66C1F00980E4C /* ScottAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottAlertView.m; sourceTree = "<group>"; };
 		2224BF151DF66C1F00980E4C /* ScottShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottShowAlertView.h; sourceTree = "<group>"; };
 		2224BF161DF66C1F00980E4C /* ScottShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottShowAlertView.m; sourceTree = "<group>"; };
-		2224BF171DF66C1F00980E4C /* UIView+ScottAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScottAlertView.h"; sourceTree = "<group>"; };
-		2224BF181DF66C1F00980E4C /* UIView+ScottAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScottAlertView.m"; sourceTree = "<group>"; };
-		2224BF191DF66C1F00980E4C /* UIView+ScottAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScottAutoLayout.h"; sourceTree = "<group>"; };
-		2224BF1A1DF66C1F00980E4C /* UIView+ScottAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScottAutoLayout.m"; sourceTree = "<group>"; };
 		2224BF1B1DF66C1F00980E4C /* ScottAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottAlertViewController.h; sourceTree = "<group>"; };
 		2224BF1C1DF66C1F00980E4C /* ScottAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottAlertViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +83,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2218B6AF1EF27EAF008B091F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2218B6B01EF27EAF008B091F /* ScottAlertViewController+BlurEffects.h */,
+				2218B6B11EF27EAF008B091F /* ScottAlertViewController+BlurEffects.m */,
+				2218B6B21EF27EAF008B091F /* UIImage+ScottAlertView.h */,
+				2218B6B31EF27EAF008B091F /* UIImage+ScottAlertView.m */,
+				2218B6B41EF27EAF008B091F /* UIView+ScottAlertView.h */,
+				2218B6B51EF27EAF008B091F /* UIView+ScottAlertView.m */,
+				2218B6B61EF27EAF008B091F /* UIView+ScottAutoLayout.h */,
+				2218B6B71EF27EAF008B091F /* UIView+ScottAutoLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2218B6BC1EF27F7B008B091F /* CustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2218B6BD1EF27F7B008B091F /* ScottCustomActionSheet.h */,
+				2218B6BE1EF27F7B008B091F /* ScottCustomActionSheet.m */,
+				2218B6BF1EF27F7B008B091F /* ScottCustomActionSheet.xib */,
+				2218B6C01EF27F7B008B091F /* ScottCustomAlertView.h */,
+				2218B6C11EF27F7B008B091F /* ScottCustomAlertView.m */,
+				2218B6C21EF27F7B008B091F /* ScottCustomAlertView.xib */,
+			);
+			path = CustomAlertView;
+			sourceTree = "<group>";
+		};
 		2224BEB61DF64FE100980E4C = {
 			isa = PBXGroup;
 			children = (
@@ -99,18 +130,12 @@
 		2224BEC11DF64FE100980E4C /* ScottAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2218B6BC1EF27F7B008B091F /* CustomAlertView */,
 				2224BF071DF66C1F00980E4C /* ScottAlertController */,
-				2224BEF71DF6538D00980E4C /* Category */,
 				2224BEC51DF64FE100980E4C /* AppDelegate.h */,
 				2224BEC61DF64FE100980E4C /* AppDelegate.m */,
 				2224BEC81DF64FE100980E4C /* ViewController.h */,
 				2224BEC91DF64FE100980E4C /* ViewController.m */,
-				2224BEFB1DF655EC00980E4C /* ScottCustomAlertView.h */,
-				2224BEFC1DF655EC00980E4C /* ScottCustomAlertView.m */,
-				2224BEFE1DF655F900980E4C /* ScottCustomAlertView.xib */,
-				2224BF001DF6561200980E4C /* ScottCustomActionSheet.h */,
-				2224BF011DF6561200980E4C /* ScottCustomActionSheet.m */,
-				2224BF031DF6561C00980E4C /* ScottCustomActionSheet.xib */,
 				2224BECB1DF64FE100980E4C /* Main.storyboard */,
 				2224BECE1DF64FE100980E4C /* Assets.xcassets */,
 				2224BED01DF64FE100980E4C /* LaunchScreen.storyboard */,
@@ -128,18 +153,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2224BEF71DF6538D00980E4C /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				2224BEF81DF6539C00980E4C /* UIImage+ScottExtension.h */,
-				2224BEF91DF6539C00980E4C /* UIImage+ScottExtension.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		2224BF071DF66C1F00980E4C /* ScottAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				2218B6AF1EF27EAF008B091F /* Category */,
 				2224BF081DF66C1F00980E4C /* ScottAlertAnimations */,
 				2224BF111DF66C1F00980E4C /* ScottAlertController.h */,
 				2224BF121DF66C1F00980E4C /* ScottAlertView */,
@@ -171,10 +188,6 @@
 				2224BF141DF66C1F00980E4C /* ScottAlertView.m */,
 				2224BF151DF66C1F00980E4C /* ScottShowAlertView.h */,
 				2224BF161DF66C1F00980E4C /* ScottShowAlertView.m */,
-				2224BF171DF66C1F00980E4C /* UIView+ScottAlertView.h */,
-				2224BF181DF66C1F00980E4C /* UIView+ScottAlertView.m */,
-				2224BF191DF66C1F00980E4C /* UIView+ScottAutoLayout.h */,
-				2224BF1A1DF66C1F00980E4C /* UIView+ScottAutoLayout.m */,
 			);
 			path = ScottAlertView;
 			sourceTree = "<group>";
@@ -238,11 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2224BEFF1DF655F900980E4C /* ScottCustomAlertView.xib in Resources */,
 				2224BED21DF64FE100980E4C /* LaunchScreen.storyboard in Resources */,
+				2218B6C61EF27F7B008B091F /* ScottCustomAlertView.xib in Resources */,
 				2224BECF1DF64FE100980E4C /* Assets.xcassets in Resources */,
+				2218B6C41EF27F7B008B091F /* ScottCustomActionSheet.xib in Resources */,
 				2224BECD1DF64FE100980E4C /* Main.storyboard in Resources */,
-				2224BF041DF6561C00980E4C /* ScottCustomActionSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,19 +268,20 @@
 			files = (
 				2224BF1D1DF66C1F00980E4C /* ScottBaseAnimation.m in Sources */,
 				2224BECA1DF64FE100980E4C /* ViewController.m in Sources */,
+				2218B6B81EF27EAF008B091F /* ScottAlertViewController+BlurEffects.m in Sources */,
+				2218B6BA1EF27EAF008B091F /* UIView+ScottAlertView.m in Sources */,
 				2224BF1F1DF66C1F00980E4C /* ScottFadeAnimation.m in Sources */,
 				2224BF211DF66C1F00980E4C /* ScottAlertView.m in Sources */,
 				2224BF201DF66C1F00980E4C /* ScottScaleFadeAnimation.m in Sources */,
 				2224BEC71DF64FE100980E4C /* AppDelegate.m in Sources */,
-				2224BEFA1DF6539C00980E4C /* UIImage+ScottExtension.m in Sources */,
 				2224BF251DF66C1F00980E4C /* ScottAlertViewController.m in Sources */,
-				2224BF241DF66C1F00980E4C /* UIView+ScottAutoLayout.m in Sources */,
-				2224BF021DF6561200980E4C /* ScottCustomActionSheet.m in Sources */,
 				2224BF221DF66C1F00980E4C /* ScottShowAlertView.m in Sources */,
+				2218B6C31EF27F7B008B091F /* ScottCustomActionSheet.m in Sources */,
+				2218B6B91EF27EAF008B091F /* UIImage+ScottAlertView.m in Sources */,
+				2218B6C51EF27F7B008B091F /* ScottCustomAlertView.m in Sources */,
+				2218B6BB1EF27EAF008B091F /* UIView+ScottAutoLayout.m in Sources */,
 				2224BF1E1DF66C1F00980E4C /* ScottDropDownAnimation.m in Sources */,
-				2224BEFD1DF655EC00980E4C /* ScottCustomAlertView.m in Sources */,
 				2224BEC41DF64FE100980E4C /* main.m in Sources */,
-				2224BF231DF66C1F00980E4C /* UIView+ScottAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

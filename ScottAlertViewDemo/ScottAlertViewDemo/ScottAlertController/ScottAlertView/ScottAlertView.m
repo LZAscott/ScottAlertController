@@ -263,7 +263,6 @@
 }
 
 #pragma mark - layout contenview
-
 - (void)layoutContentViews {
     if (!_textContentView.translatesAutoresizingMaskIntoConstraints) return;
     if (_alertViewWidth) {

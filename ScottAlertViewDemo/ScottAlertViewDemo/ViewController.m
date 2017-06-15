@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "ScottAlertController.h"
-#import "UIImage+ScottExtension.h"
+#import "UIImage+ScottAlertView.h"
 #import "ScottCustomAlertView.h"
 #import "ScottCustomActionSheet.h"
 
@@ -20,7 +20,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
 /// 默认形式的alertView
@@ -50,8 +49,6 @@
 
 /// 背景模糊的alertView
 - (IBAction)effAlertViewClick:(UIButton *)sender {
-    UIImage *img = [UIImage scott_screenShot];
-    img = [UIImage scott_blurImage:img blur:0.4];
     
     ScottAlertView *alertView = [ScottAlertView alertViewWithTitle:@"ScottAlertView" message:@"这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字."];
     
@@ -63,12 +60,9 @@
         
     }]];
     
-    ScottAlertViewController *alertController = [ScottAlertViewController alertControllerWithAlertView:alertView preferredStyle:ScottAlertControllerStyleAlert transitionAnimationStyle:ScottAlertTransitionStyleFade];
+    ScottAlertViewController *alertController = [ScottAlertViewController alertControllerWithAlertView:alertView preferredStyle:ScottAlertControllerStyleAlert];
     
-    UIImageView *imgView = [[UIImageView alloc] initWithImage:img];
-    imgView.userInteractionEnabled = YES;
-    alertController.backgroundView = imgView;
-    
+    [alertController setBlurEffectWithView:self.view style:ScottEffectStyleLite];
     alertController.tapBackgroundDismissEnable = YES;
     [self presentViewController:alertController animated:YES completion:nil];
 }
@@ -100,7 +94,6 @@
     
     ScottAlertViewController *alertController = [ScottAlertViewController alertControllerWithAlertView:alertView preferredStyle:ScottAlertControllerStyleAlert transitionAnimationStyle:ScottAlertTransitionStyleScaleFade];
     alertController.tapBackgroundDismissEnable = YES;
-    
     [self presentViewController:alertController animated:YES completion:nil];
 }
 
@@ -127,7 +120,6 @@
 /// 自定义形式的actionSheet
 - (IBAction)customActionSheetClick:(UIButton *)sender {
     ScottCustomActionSheet *customActionSheet = [ScottCustomActionSheet createViewFromNib];
-    
     ScottAlertViewController *alertController = [ScottAlertViewController alertControllerWithAlertView:customActionSheet preferredStyle:ScottAlertControllerStyleActionSheet transitionAnimationStyle:ScottAlertTransitionStyleFade];
     alertController.tapBackgroundDismissEnable = YES;
     [self presentViewController:alertController animated:YES completion:nil];
@@ -138,7 +130,6 @@
     ScottAlertView *alertView = [ScottAlertView alertViewWithTitle:@"提示" message:@"这是一个显示在窗口的alertView"];
     ScottAlertAction *action = [ScottAlertAction actionWithTitle:@"好的" style:ScottAlertActionStyleDestructive handler:nil];
     [alertView addAction:action];
-    
     [ScottShowAlertView showAlertViewWithView:alertView backgroundDismissEnable:YES];
 }
 
