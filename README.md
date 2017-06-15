@@ -44,9 +44,6 @@ if ScottAlertController can help you, i hope you give a star
 * show with blur effect
 
     ```objc
-    UIImage *img = [UIImage scott_screenShot];
-    img = [UIImage scott_blurImage:img blur:0.4];
-    
     ScottAlertView *alertView = [ScottAlertView alertViewWithTitle:@"ScottAlertView" message:@"这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字."];
     
     [alertView addAction:[ScottAlertAction actionWithTitle:@"取消" style:ScottAlertActionStyleCancel handler:^(ScottAlertAction *action) {
@@ -59,9 +56,7 @@ if ScottAlertController can help you, i hope you give a star
     
     ScottAlertViewController *alertController = [ScottAlertViewController alertControllerWithAlertView:alertView preferredStyle:ScottAlertControllerStyleAlert transitionAnimationStyle:ScottAlertTransitionStyleFade];
     
-    UIImageView *imgView = [[UIImageView alloc] initWithImage:img];
-    imgView.userInteractionEnabled = YES;
-    alertController.backgroundView = imgView;
+    [alertController setBlurEffectWithView:self.view style:ScottEffectStyleLite];
     
     alertController.tapBackgroundDismissEnable = YES;
     [self presentViewController:alertController animated:YES completion:nil];
@@ -124,8 +119,6 @@ ScottAlertController 既能显示在控制器上又能显示在window上，支�
 * 背景模糊方式
 
     ```objc
-    UIImage *img = [UIImage scott_screenShot];
-    img = [UIImage scott_blurImage:img blur:0.4];
     
     ScottAlertView *alertView = [ScottAlertView alertViewWithTitle:@"ScottAlertView" message:@"这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字这是一段描述文字."];
     
@@ -139,9 +132,7 @@ ScottAlertController 既能显示在控制器上又能显示在window上，支�
     
     ScottAlertViewController *alertController = [ScottAlertViewController alertControllerWithAlertView:alertView preferredStyle:ScottAlertControllerStyleAlert transitionAnimationStyle:ScottAlertTransitionStyleFade];
     
-    UIImageView *imgView = [[UIImageView alloc] initWithImage:img];
-    imgView.userInteractionEnabled = YES;
-    alertController.backgroundView = imgView;
+    [alertController setBlurEffectWithView:self.view style:ScottEffectStyleLite];
     
     alertController.tapBackgroundDismissEnable = YES;
     [self presentViewController:alertController animated:YES completion:nil];
