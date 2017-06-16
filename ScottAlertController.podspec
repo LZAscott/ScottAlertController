@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ScottAlertController"
-  s.version      = "0.0.6"
+  s.version      = "0.1.0"
   s.summary      = "一款可高度自定义的提示框"
   s.homepage     = "https://github.com/LZAscott/ScottAlertController"
   s.license      = { :type => "MIT", :file => "LICENSE" }
